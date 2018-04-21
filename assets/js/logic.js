@@ -13,9 +13,6 @@ let counter;
 let interval;
 
 let countdownSoundTimer;
-let jeopardySoundTimer;
-
-let reverseLast = false;
 
 const winSound = new Audio('assets/audio/yay.ogg');
 const loseSound = new Audio('assets/audio/buzzer.ogg');
@@ -50,24 +47,6 @@ function restartGame() {
   jeopardySound.loop = true;
   jeopardySound.playbackRate = 1;
   jeopardySound.play();
-
-  screwUpSound();
-}
-
-function screwUpSound() {
-  if (jeopardySoundTimer) {
-    clearTimeout(jeopardySoundTimer);
-
-    if (reverseLast) {
-      jeopardySound.playbackRate = 1.5 - jeopardySound.playbackRate;
-      reverseLast = false;
-    } else {
-      jeopardySound.playbackRate = (Math.random() * 1.3) + 0.1;
-      reverseLast = true;
-    }
-  }
-
-  jeopardySoundTimer = setTimeout(screwUpSound, (Math.random() * 500) + 500);
 }
 
 function rightAnswer() {
