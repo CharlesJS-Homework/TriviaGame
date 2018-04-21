@@ -30,7 +30,7 @@
     "wrong": ["Hippopotomonstrosesquipedaliophobia", "Jules Verne", "The Arctic Ocean"]
   },
   {
-    "question": "What is the square root of 49?",
+    "question": "What is the square root of 49i?",
     "correct": "The Anterior Cruciate Ligament",
     "wrong": ["2 cups flour, 1 tsp baking soda, bake at 350° for 7-8 minutes", "Super Mario Bros.", "Oliver Cromwell"]
   },
@@ -42,12 +42,42 @@
   {
     "question": "Where is the any key?",
     "correct": "Mahatma Gandhi",
-    "wrong": ["The Book of Lamentations", "John Malkovich", "9.8 m/s^2"]
+    "wrong": ["Ecclesiastes 3:12", "John Malkovich", "9.8 m/s^2"]
   },
   {
     "question": "What if the Hokey Pokey really is what it’s all about?",
     "correct": "The Colorado River",
     "wrong": ["Able was I ere I saw Elba", "Jaws: The Revenge", "Struthiomimus altus"]
+  },
+  {
+    "question": "If Alice is traveling east at 30 mph and Bob is traveling west at 45 mph, why do my socks keep disappearing in the wash?",
+    "correct": "Samuel L. Jackson",
+    "wrong": ["There once was a man from Nantucket", "McDonalds Szechuan Sauce", "7.2 furlongs"]
+  },
+  {
+    "question": "What does the fox say?",
+    "correct": "The War of 1812",
+    "wrong": ["Won't get fooled again", "Chester A. Arthur", "54 Joules"]
+  },
+  {
+    "question": "Who knows where evil lurks in the hearts of men?",
+    "correct": "Microsoft Access",
+    "wrong": ["The Internal Revenue Service", "Amanita muscaria", "The Second Law of Thermodynamics"]
+  },
+  {
+    "question": "What did the President know, and when did he know it?",
+    "correct": "Willy Wonka",
+    "wrong": ["The Pythagorean Theorem", "Nude Descending a Staircase", "🐝"]
+  },
+  {
+    "question": "Who lives in a pineapple under the sea?",
+    "correct": "98.6° Fahrenheit",
+    "wrong": ["Singapore", "The Marriage of Figaro", "I'm Lovin' It"]
+  },
+  {
+    "question": "To be or not to be?",
+    "correct": "Cornflower",
+    "wrong": ["Rod Serling", "The Punic Wars", "Macaroni and Cheese"]
   },
   {
     "question": "Should I use Google?",
