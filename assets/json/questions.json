@@ -1,0 +1,57 @@
+[
+  {
+    "question": "How many angels can dance on the head of a pin?",
+    "correct": "Chuck Norris",
+    "wrong": ["Helsinki", "Onomatopoeia", "Epistaxis"]
+  },
+  {
+    "question": "What would happen if Batman got bitten by a vampire?",
+    "correct": "February 29, 1593",
+    "wrong": ["Antwerp International Airport", "Hemidemisemiquaver", "H. R. Pufnstuf"]
+  },
+  {
+    "question": "What kind of bear is best?",
+    "correct": "The Battle of Hastings",
+    "wrong": ["I Am the Walrus", "The Infield Fly Rule", "e^(π*i)"]
+  },
+  {
+    "question": "What would God need with a starship?",
+    "correct": "The Philadelphia Eagles",
+    "wrong": ["Alo, alass, aladdin, amobus! Does she lag soft fall means rest down? Shaun yawned, as his general address rehearsal", "42", "Grigory Rasputin"]
+  },
+  {
+    "question": "WHY IS MY MEDIAL PTERYGOID A PANCAKE",
+    "correct": "xyzzy",
+    "wrong": ["The Battle of Austerlitz", "Goto Considered Harmful", "The Venus de Medici"]
+  },
+  {
+    "question": "If there's a bustle in my hedgerow, should I be alarmed?",
+    "correct": "The 1939 World’s Fair",
+    "wrong": ["Hippopotomonstrosesquipedaliophobia", "Jules Verne", "The Arctic Ocean"]
+  },
+  {
+    "question": "What is the square root of 49?",
+    "correct": "The Anterior Cruciate Ligament",
+    "wrong": ["2 cups flour, 1 tsp baking soda, bake at 350° for 7-8 minutes", "Super Mario Bros.", "Oliver Cromwell"]
+  },
+  {
+    "question": "If Where’s Waldo and Carmen Sandiego had a kid, how hard would it be to find him?",
+    "correct": "To get to the other side",
+    "wrong": ["Giovanni Pierluigi da Palestrina", "Atlanta, Georgia", "350 Watts"]
+  },
+  {
+    "question": "Where is the any key?",
+    "correct": "Mahatma Gandhi",
+    "wrong": ["The Book of Lamentations", "John Malkovich", "9.8 m/s^2"]
+  },
+  {
+    "question": "What if the Hokey Pokey really is what it’s all about?",
+    "correct": "The Colorado River",
+    "wrong": ["Able was I ere I saw Elba", "Jaws: The Revenge", "Struthiomimus altus"]
+  },
+  {
+    "question": "Should I use Google?",
+    "correct": "Groovy",
+    "wrong": ["Skedoo", "Freaky String", "This Dude"]
+  }
+]

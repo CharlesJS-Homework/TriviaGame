@@ -1,0 +1,142 @@
+/* from http://www.fontspace.com/manfred-klein/dadada */
+
+@font-face {
+    font-family: 'dadadaregular';
+    src: url('../font/dadada-webfont.woff2') format('woff2'),
+         url('../font/dadada-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url('../img/marilyn.jpg');
+  background-size: 400px 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#master-area {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  background-color: #fdf284;
+  text-align: center;
+}
+
+#main-title {
+  margin-top: 10px;
+  color: blue;
+}
+
+#main-flexbox {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+#start-button {
+  font-size: 20vw;
+  padding: 20px;
+  background-color: blue;
+  color: white;
+}
+
+h1, h2 {
+  white-space: nowrap;
+}
+
+h1 {
+  font-family: 'dadadaregular', sans-serif;
+  font-size: 9vw;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#time-header, #question {
+  font-size: 5vw;
+}
+
+[class|=answer] {
+  font-size: 6vw;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.answer-correct.inactive {
+  color: green !important;
+}
+
+.answer-incorrect.inactive {
+  color: lightgray !important;
+}
+
+#game-over > h2 {
+  font-size: 10vw;
+}
+
+#correct-header {
+  color: orange;
+}
+
+#incorrect-header {
+  color: blue;
+}
+
+@media screen and (min-width: 450px) {
+  #master-area {
+    max-height: 600px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  h1 {
+    padding-top: 40px;
+    font-size: 2em;
+  }
+  
+  #time-header, #question {
+    font-size: 1.5em;
+  }
+  
+  [class|=answer] {
+    font-size: 1em;
+  }
+  
+  #start-button {
+    width: 220px;
+    font-size: 48pt;
+  }
+}
+
+@media screen and (min-width: 670px) {
+  #game-over > h2 {
+    font-size: 4em;
+  }
+}
+
+@media screen and (min-width: 790px) {
+  #master-area {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #main-title {
+    font-size: 4.8em;
+  }
+}
